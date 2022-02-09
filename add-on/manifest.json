@@ -1,0 +1,21 @@
+{
+    "description": "Read aloud text with Mycroft's mimic",
+    "manifest_version": 2,
+    "name": "MimicFox",
+    "version": "0.1.0",
+
+    "author": "rushikeshprajapati@protonmail.com",
+
+    "applications": {
+        "gecko": {
+            "id": "mimicfox@ExclusiveRishi.github.io",
+            "strict_min_version": "50.0"
+        }
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": ["nativeMessaging", "contextMenus" ,"activeTab"]  
+}

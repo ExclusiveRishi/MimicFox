@@ -1,0 +1,7 @@
+{
+    "name": "mimicfox",
+    "description": "Text-to-speech text from browser using mycroft's mimic",
+    "path": "/home/rishi/Projects/mimicfox/app/mimicfox",
+    "type": "stdio",
+    "allowed_extensions": ["mimicfox@ExclusiveRishi.github.io"]
+}
