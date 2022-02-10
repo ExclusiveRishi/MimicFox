@@ -18,7 +18,7 @@ OLD_PATH="/path/to/mimicfox"
 if [[ -d "$MOZ_DEST" ]]; then
   mkdir -p "$JSON_DEST"
   # Replace the placeholder path in the JSON file and install it
-  sed -e "s|$OLD_PATH|$CURRENT_DIR/mimicfox|g" app/mimicfox.json > "$JSON_DEST"/mimicfox.json
+  sed -e "s|$OLD_PATH|$CURRENT_DIR/app/mimicfox|g" app/mimicfox.json > "$JSON_DEST"/mimicfox.json
 else
   echo "Please initialize the .mozilla folder by running Firefox at least once"
   exit 1
