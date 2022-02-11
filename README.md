@@ -1,8 +1,11 @@
 # MimicFox
 Read aloud text on Firefox with Mycroft's mimic
 
+You need to have [Mycroft's Mimic](https://github.com/MycroftAI/mimic1 "Mycroft's Mimic") installed
+
 ## Installation
-Requires [Mycroft's Mimic](https://mimic.mycroft.ai/ "Mycroft's Mimic")
+Download latest source code from [releases](https://github.com/ExclusiveRishi/MimicFox/releases "releases")
+
 run  `install.sh`
 
 ## Manual Installation
